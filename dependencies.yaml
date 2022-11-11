@@ -47,10 +47,6 @@ repositories:
     type: git
     url: git@github.com:uzh-rpg/dbow2_catkin.git
     version: master
-  yaml_cpp_catkin:
-    type: git
-    url: git@github.com:ethz-asl/yaml_cpp_catkin.git
-    version: master
   rpg_trajectory_evaluation:
     type: git
     url: git@github.com:uzh-rpg/rpg_trajectory_evaluation.git
