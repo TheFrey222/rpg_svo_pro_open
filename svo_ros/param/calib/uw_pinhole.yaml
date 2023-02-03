@@ -4,14 +4,14 @@ cameras:
       parameters:
         cols: 1
         rows: 1
-        data: [0.9320]
-      type: fisheye
+        data: [0.0]
+      type: radial-tangential
     image_height: 480
-    image_width: 752
+    image_width: 640
     intrinsics:
       cols: 1
       rows: 4
-      data: [383.013152, 382.39248, 344.7056, 244.32688]
+      data: [715.25493985261562, 730.29534746633885, 322.10396703375284, 230.63258946498976]
     label: cam
     line-delay-nanoseconds: 0
     type: pinhole

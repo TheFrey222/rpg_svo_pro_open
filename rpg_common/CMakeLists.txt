@@ -3,9 +3,9 @@ cmake_minimum_required(VERSION 2.8.3)
 
 find_package(catkin_simple REQUIRED)
 catkin_simple(ALL_DEPS_REQUIRED)
-find_package(OpenCV REQUIRED)
+find_package(OpenCV 4 REQUIRED)
 
-add_definitions(-std=c++11)
+add_definitions(-std=c++14)
 
 FILE(GLOB_RECURSE HEADERS "include/*")
 
